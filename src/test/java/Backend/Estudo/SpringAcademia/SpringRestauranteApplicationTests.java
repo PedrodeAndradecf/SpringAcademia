@@ -1,4 +1,4 @@
-package Backend.Estudo.SpringRestaurante;
+package Backend.Estudo.SpringAcademia;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

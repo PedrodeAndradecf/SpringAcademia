@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  postgres-db:
+    image: postgres:16-alpine
+    container_name: academia_postgres
+    restart: always
+    environment:
+      POSTGRES_DB: academia_db
+      POSTGRES_USER: academia_user
+      POSTGRES_PASSWORD: academia_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - academia_pg_data:/var/lib/postgresql/data
+
+volumes:
+  academia_pg_data:

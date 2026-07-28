@@ -1,13 +1,13 @@
-package Backend.Estudo.SpringRestaurante;
+package Backend.Estudo.SpringAcademia;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringRestauranteApplication {
+public class SpringAcademiaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringRestauranteApplication.class, args);
+		SpringApplication.run(SpringAcademiaApplication.class, args);
 	}
 
 }
